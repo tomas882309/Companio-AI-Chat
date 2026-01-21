@@ -358,7 +358,7 @@ export default function RoomPage() {
           <textarea
             style={composer}
             value={text}
-            placeholder="Escribí…"
+            placeholder="Send…"
             onChange={(e) => setText(e.target.value)}
             onKeyDown={(e) => {
               if (e.key === "Enter" && !e.shiftKey) {
